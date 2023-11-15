@@ -1,8 +1,8 @@
 [core]
-	eol = lf
-	autocrlf = input
-	editor = code --wait
-	symlinks = true
+  eol = lf
+  autocrlf = input
+  editor = code --wait
+  symlinks = true
 [advice]
 	skippedCherryPicks = false
 [branch]
@@ -10,14 +10,14 @@
 [fetch]
   prune = true
 [init]
-	defaultBranch = main
+  defaultBranch = main
 [pull]
-	rebase = true
+  rebase = true
 [push]
   autoSetupRemote = true
   default = current
 [submodule]
-	recurse = true
+  recurse = true
 [alias]
   co = checkout
   cb = checkout -b
