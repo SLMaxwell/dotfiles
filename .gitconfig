@@ -39,12 +39,6 @@
   lf = show --pretty=\"format:\" --name-only
   wtf = reflog
   rs = remote show origin
-[user]
-	name = Mike Glenn
-	email = 219478+ilude@users.noreply.github.com
 [safe]
-	directory = /apps/onramp
-	directory = /apps/stable-diff-production
-[credential]
-	helper = "!f() { /home/vscode/.vscode-server/bin/2b35e1e6d88f1ce073683991d1eff5284a32690f/node /tmp/vscode-remote-containers-3f5954cf-8554-4f0b-9089-eb5b5afd0bcd.js git-credential-helper $*; }; f"
+  directory = *
 
