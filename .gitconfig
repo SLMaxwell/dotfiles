@@ -4,7 +4,7 @@
   editor = code --wait
   symlinks = true
 [advice]
-	skippedCherryPicks = false
+  skippedCherryPicks = false
 [branch]
   autoSetupRebase = always
 [fetch]
