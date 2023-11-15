@@ -40,5 +40,11 @@
   wtf = reflog
   rs = remote show origin
 [safe]
-  directory = *
+	directory = *
+[includeIf "hasconfig:remote.*.url:git@github.com:*/**"]
+  	path = ~/.dotfiles/.gitconfig-personal
+[includeIf "hasconfig:remote.*.url:git@github.com:rammounts/**"]
+  	path = ~/.dotfiles/.gitconfig-professional
+[includeIf "hasconfig:remote.*.url:git@bitbucket.org:rammounts/**"]
+  	path = ~/.dotfiles/.gitconfig-professional
 
