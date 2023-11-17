@@ -25,10 +25,11 @@ setopt GLOB_COMPLETE
 #zstyle ':completion*:default' menu 'select=0'
 
 alias es='env | sort'
-alias l='ls --color=auto -lhA --group-directories-first'
+alias ll='ls --color=auto -lhA --group-directories-first'
 alias sz='source ~/.zshrc'
 alias dps='tput rmam; docker ps --format="table {{.Names}}\t{{.ID}}\t{{.Image}}\t{{.RunningFor}}\t{{.State}}\t{{.Status}}" | (sed -u 1q; sort); tput smam'
 alias history="history 1"
+alias cls=clear && printf '\''\e[3J'\'
 export HOSTNAME=$(hostname)
 
 # https://superuser.com/a/448294/29344
